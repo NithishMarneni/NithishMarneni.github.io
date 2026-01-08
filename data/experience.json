@@ -1,0 +1,66 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Nlp Engineer",
+      "company": "Doublene, USA",
+      "period": "Jan 2025 - Present",
+      "location": "",
+      "description": "Engineered and fine-tuned transformer-based NLP models using PyTorch and HuggingFace for classification, intent\ndetection, and named entity recognition.\nBuilt scalable NLP preprocessing and embedding pipelines using Pandas, spaCy, and sentence-transformer models\nto support search and inference workflows.\nDeveloped LLM-powered conversational and retrieval features using prompt engineering and parameter-efficient\nfine-tuning techniques.\nImplemented Retrieval-Augmented Generation (RAG) systems using vector databases to improve answer accuracy\nand retrieval relevance.\nExposed NLP and LLM services through FastAPI-based REST APIs and containerized deployments using Docker.\nDeployed services across cloud environments with CI/CD automation to support reliable real-time inference\nworkloads.",
+      "responsibilities": [
+        "Engineered and fine-tuned transformer-based NLP models using PyTorch and HuggingFace for classification, intent",
+        "detection, and named entity recognition",
+        "Built scalable NLP preprocessing and embedding pipelines using Pandas, spaCy, and sentence-transformer models",
+        "to support search and inference workflows",
+        "Developed LLM-powered conversational and retrieval features using prompt engineering and parameter-efficient",
+        "fine-tuning techniques",
+        "Implemented Retrieval-Augmented Generation (RAG) systems using vector databases to improve answer accuracy",
+        "and retrieval relevance",
+        "Exposed NLP and LLM services through FastAPI-based REST APIs and containerized deployments using Docker",
+        "Deployed services across cloud environments with CI/CD automation to support reliable real-time inference"
+      ]
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Lamar University, Beaumont, TX",
+      "period": "Mar 2024 – Dec 2024",
+      "location": "",
+      "description": "Designed and implemented vendor and billing microservices using Python and FastAPI with PostgreSQL-backed\ndata models.\nBuilt invoice classification and anomaly detection pipelines using scikit-learn to support automated auditing\nworkflows.\nProcessed and normalized vendor documents using Pandas, spaCy, and rule-based extraction techniques.\nExposed ML predictions via FastAPI endpoints for real-time scoring and downstream integration.\nContainerized services using Docker and deployed them to Azure Kubernetes Service (AKS).\nImplemented CI/CD pipelines using GitHub Actions and integrated monitoring and alerting using Azure Monitor.\nCollaborated with team members through Git branches, pull requests, and code reviews.",
+      "responsibilities": [
+        "Designed and implemented vendor and billing microservices using Python and FastAPI with PostgreSQL-backed",
+        "data models",
+        "Built invoice classification and anomaly detection pipelines using scikit-learn to support automated auditing",
+        "Processed and normalized vendor documents using Pandas, spaCy, and rule-based extraction techniques",
+        "Exposed ML predictions via FastAPI endpoints for real-time scoring and downstream integration",
+        "Containerized services using Docker and deployed them to Azure Kubernetes Service (AKS)",
+        "Implemented CI/CD pipelines using GitHub Actions and integrated monitoring and alerting using Azure Monitor",
+        "Collaborated with team members through Git branches, pull requests, and code reviews"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Techecy, India",
+      "period": "Feb 2022 – Jun 2023",
+      "location": "",
+      "description": "Developed high-scale messaging services using Python, FastAPI, REST APIs, Kafka, supporting over one million daily\nAPI requests.\nBuilt real-time webhook processors for Facebook, Twitter, and Apple Chat using Python and Kafka consumers,\nmonitored with Grafana and ELK.\nCreated intent detection and dialog flows using Rasa, reducing agent workload through automation.\nDeveloped internal analytics dashboards using React and Python APIs to trace conversation flows and routing\npatterns.\nImplemented multi-language UI support in React and backend translation utilities in Python.\nBuilt and deployed over twenty REST microservices using FastAPI, SQLAlchemy, async IO, caching, and modular\narchitecture.\nCreated privacy-compliant CRUD APIs using PostgreSQL and DynamoDB, encrypted with AWS KMS.\nTuned PostgreSQL queries and DynamoDB access patterns, improving metadata lookup speeds by thirty percent using\nDAX-style caching.\nWrote unit and integration tests using PyTest, and automated regression tests with Selenium and Python, ensuring\nCCPA compliance.\nDelivered zero-downtime deployments using Jenkins, Docker, AWS Lambda, API Gateway, and participated in Agile\nceremonies.",
+      "responsibilities": [
+        "Developed high-scale messaging services using Python, FastAPI, REST APIs, Kafka, supporting over one million daily",
+        "API requests",
+        "Built real-time webhook processors for Facebook, Twitter, and Apple Chat using Python and Kafka consumers,",
+        "monitored with Grafana and ELK",
+        "Created intent detection and dialog flows using Rasa, reducing agent workload through automation",
+        "Developed internal analytics dashboards using React and Python APIs to trace conversation flows and routing",
+        "Implemented multi-language UI support in React and backend translation utilities in Python",
+        "Built and deployed over twenty REST microservices using FastAPI, SQLAlchemy, async IO, caching, and modular",
+        "architecture",
+        "Created privacy-compliant CRUD APIs using PostgreSQL and DynamoDB, encrypted with AWS KMS",
+        "Tuned PostgreSQL queries and DynamoDB access patterns, improving metadata lookup speeds by thirty percent using",
+        "DAX-style caching",
+        "Wrote unit and integration tests using PyTest, and automated regression tests with Selenium and Python, ensuring",
+        "CCPA compliance",
+        "Delivered zero-downtime deployments using Jenkins, Docker, AWS Lambda, API Gateway, and participated in Agile"
+      ]
+    }
+  ]
+}

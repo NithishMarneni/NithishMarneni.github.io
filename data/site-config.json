@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "Nithish Marneni | Professional Developer",
+  "description": "Nithish Marneni - Professional Developer | Portfolio",
+  "keywords": "Professional Developer, Portfolio, Nithish Marneni",
+  "author": "Nithish Marneni",
+  "siteName": "Nithish Marneni",
+  "siteTitle": "Nithish Marneni | Professional Developer",
+  "meta": {
+    "title": "Nithish Marneni | Professional Developer",
+    "description": "Nithish Marneni - Professional Developer | Portfolio",
+    "author": "Nithish Marneni",
+    "keywords": "Professional Developer, Portfolio, Nithish Marneni"
+  },
+  "branding": {
+    "name": "Nithish Marneni",
+    "tagline": "Professional Developer",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

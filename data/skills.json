@@ -1,0 +1,57 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "SQL",
+        "Bash"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "PyTorch",
+        "TensorFlow",
+        "HuggingFace Transformers",
+        "FastAPI",
+        "SQLAlchemy"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Postman",
+        "Linux",
+        "Bash Scripting",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "AWS Lambda",
+        "API Gateway"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Data Structures",
+        "Algorithms",
+        "OOPS",
+        "Model Evaluation",
+        "Feature Engineering"
+      ]
+    }
+  ]
+}

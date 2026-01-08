@@ -1,0 +1,41 @@
+{
+  "_instructions": "About section.",
+  "sectionTitle": "About Me",
+  "image": "assets/images/profile.jpg",
+  "paragraphs": [
+    "AI, NLP, and Python engineer with hands-on experience building production-grade backend systems, machine learning\npipelines, and Al-driven applications. Strong background in developing FastAPI-based services, Retrieval-Augmented\nGeneration (RAG) pipelines, and cloud-native deployments across AWS and Azure. Proven ability to take models from\nexperimentation to real-time inference, optimize performance, and automate manual workflows.",
+    "Comfortable working in\nfast-paced Agile environments and collaborating closely with product, data, and engineering teams. • Built NLP and retrieval pipelines at Doublene, deploying LLM-powered services for real-time search and conversational\nuse cases. • Developed ML scoring tools and backend APIs at Lamar University, streamlining vendor, billing, and data-processing\nworkflows.",
+    "• Built large-scale messaging and automation services at Techecy, supporting production traffic exceeding one million API\nrequests per day."
+  ],
+  "statistics": [
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "5+",
+      "label": "Projects Completed",
+      "color": "#FF6B6B"
+    },
+    {
+      "icon": "fas fa-briefcase",
+      "value": "1+",
+      "label": "Years Experience",
+      "color": "#4ECDC4"
+    },
+    {
+      "icon": "fas fa-code",
+      "value": "23+",
+      "label": "Technologies",
+      "color": "#FFE66D"
+    },
+    {
+      "icon": "fas fa-award",
+      "value": "1+",
+      "label": "Certifications",
+      "color": "#A8DADC"
+    }
+  ],
+  "downloadCV": {
+    "text": "Download Resume",
+    "href": "assets/files/resume.pdf",
+    "icon": "fas fa-download"
+  }
+}

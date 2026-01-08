@@ -1,0 +1,135 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "brain-mapping-eeg-classification",
+      "description": "Practice application demonstrating full-stack development skills",
+      "longDescription": "Practice application demonstrating full-stack development skills",
+      "category": "Backend Development",
+      "technologies": [
+        "Shell",
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
+      "demo": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
+      "links": {
+        "github": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
+        "demo": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
+        "live": "https://github.com/NithishMarneni/brain-mapping-eeg-classification"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "agentic-rag-with-crewai",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
+      "demo": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
+      "links": {
+        "github": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
+        "demo": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
+        "live": "https://github.com/NithishMarneni/agentic-rag-with-crewai"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "multi-agentic-rag",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/NithishMarneni/multi-agentic-rag",
+      "demo": "https://github.com/NithishMarneni/multi-agentic-rag",
+      "links": {
+        "github": "https://github.com/NithishMarneni/multi-agentic-rag",
+        "demo": "https://github.com/NithishMarneni/multi-agentic-rag",
+        "live": "https://github.com/NithishMarneni/multi-agentic-rag"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "azure-search-openai-demo",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "Bicep",
+        "CSS",
+        "PowerShell",
+        "Shell",
+        "HTML",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/NithishMarneni/azure-search-openai-demo",
+      "demo": "https://github.com/NithishMarneni/azure-search-openai-demo",
+      "links": {
+        "github": "https://github.com/NithishMarneni/azure-search-openai-demo",
+        "demo": "https://github.com/NithishMarneni/azure-search-openai-demo",
+        "live": "https://github.com/NithishMarneni/azure-search-openai-demo"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "house-price-prediction_task-1",
+      "description": "Full-featured application built as a learning exercise",
+      "longDescription": "Full-featured application built as a learning exercise",
+      "category": "Software Development",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/NithishMarneni/house-price-prediction_task-1",
+      "demo": "https://github.com/NithishMarneni/house-price-prediction_task-1",
+      "links": {
+        "github": "https://github.com/NithishMarneni/house-price-prediction_task-1",
+        "demo": "https://github.com/NithishMarneni/house-price-prediction_task-1",
+        "live": "https://github.com/NithishMarneni/house-price-prediction_task-1"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
