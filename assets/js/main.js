@@ -392,6 +392,26 @@ async function loadEducation() {
                 </div>
             `).join('');
         }
+
+        // Set awards title
+        const awardsTitle = document.getElementById('awards-title');
+        if (awardsTitle) awardsTitle.textContent = data.awardsTitle || 'Awards';
+
+        // Render awards
+        const awardsGrid = document.getElementById('awards-grid');
+        if (awardsGrid && data.awards) {
+            awardsGrid.innerHTML = data.awards.map(award => `
+                <a href="${award.pdfUrl}" target="_blank" rel="noopener noreferrer" class="award-card">
+                    <div class="award-icon" style="color: ${award.color}">
+                        <i class="${award.icon}"></i>
+                    </div>
+                    <h4 class="award-title">${award.title}</h4>
+                    <p class="award-issuer">${award.issuer}</p>
+                    <p class="award-date">${award.date}</p>
+                    <span class="award-link"><i class="fas fa-external-link-alt"></i> View Certificate</span>
+                </a>
+            `).join('');
+        }
     } catch (error) {
         console.error('Error loading education section:', error);
     }

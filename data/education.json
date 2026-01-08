@@ -26,7 +26,28 @@
       "name": "AWS Certified Machine Learning Engineer – Associate",
       "issuer": "AWS",
       "date": "",
-      "icon": "fas fa-certificate"
+      "icon": "fas fa-certificate",
+      "color": "#FF9900"
+    }
+  ],
+  "awardsTitle": "Awards",
+  "awards": [
+    {
+      "title": "Outstanding Graduate Student Award",
+      "issuer": "Lamar University",
+      "date": "April 2025",
+      "icon": "fas fa-trophy",
+      "color": "#FFE66D",
+      "pdfUrl": "assets/certificates/Outstanding Graduate Student Award.pdf"
+    },
+    {
+      "title": "Outstanding Individual Contribution Award",
+      "issuer": "Accenture",
+      "date": "August 2022",
+      "description": "Recognized for Respect for the Individual",
+      "icon": "fas fa-award",
+      "color": "#4ECDC4",
+      "pdfUrl": "assets/certificates/Outstanding Individual Contribution Award.pdf"
     }
   ]
 }
