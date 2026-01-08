@@ -382,14 +382,15 @@ async function loadEducation() {
         const certificationsGrid = document.getElementById('certifications-grid');
         if (certificationsGrid && data.certifications) {
             certificationsGrid.innerHTML = data.certifications.map(cert => `
-                <div class="certification-card">
+                ${cert.url ? `<a href="${cert.url}" target="_blank" rel="noopener noreferrer" class="certification-card certification-link">` : `<div class="certification-card">`}
                     <div class="certification-icon" style="color: ${cert.color}">
                         <i class="${cert.icon}"></i>
                     </div>
                     <h4 class="certification-title">${cert.title}</h4>
                     <p class="certification-issuer">${cert.issuer}</p>
                     <p class="certification-date">${cert.date}</p>
-                </div>
+                    ${cert.url ? `<span class="certification-link-text"><i class="fas fa-external-link-alt"></i> View Badge</span>` : ''}
+                ${cert.url ? `</a>` : `</div>`}
             `).join('');
         }
 

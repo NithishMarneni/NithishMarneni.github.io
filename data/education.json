@@ -27,7 +27,8 @@
       "issuer": "AWS",
       "date": "",
       "icon": "fas fa-certificate",
-      "color": "#FF9900"
+      "color": "#FF9900",
+      "url": "https://www.credly.com/badges/a3e7833c-d070-4b5e-8f91-6f21f3c9a795/public_url"
     }
   ],
   "awardsTitle": "Awards",

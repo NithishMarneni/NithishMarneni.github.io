@@ -1056,6 +1056,24 @@ body {
     color: var(--color-text-muted);
 }
 
+.certification-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.certification-link-text {
+    display: inline-block;
+    margin-top: var(--spacing-sm);
+    color: var(--color-accent-2);
+    font-size: var(--font-size-sm);
+}
+
+.certification-link:hover .certification-link-text {
+    text-decoration: underline;
+}
+
 /* Awards Section */
 .awards-grid {
     display: grid;
