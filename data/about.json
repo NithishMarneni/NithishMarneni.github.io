@@ -35,7 +35,7 @@
   ],
   "downloadCV": {
     "text": "Download Resume",
-    "href": "assets/files/resume.pdf",
+    "href": "assets/files/Resume.pdf",
     "icon": "fas fa-download"
   }
 }
