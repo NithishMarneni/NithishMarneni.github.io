@@ -1,159 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio description">
-    <meta name="keywords" content="portfolio, developer, designer">
-    <meta name="author" content="Your Name">
-    <title>Portfolio - Your Name</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Nithish Marneni — AI/ML Engineer at PayPal. Fraud-detection systems, AWS architecture, real-time ML at planetary scale." />
+    <meta name="author" content="Nithish Marneni" />
+    <meta property="og:title" content="Nithish Marneni — AI/ML Engineer" />
+    <meta property="og:description" content="Shipping ML systems at the edge of money, latency, and trust." />
+    <meta name="theme-color" content="#0a0b0d" />
+    <title>Nithish Marneni — AI/ML Engineer</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0b0d'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='ui-monospace,Menlo' font-weight='600' font-size='14' fill='%23d4ff3a'%3ENM%3C/text%3E%3C/svg%3E" />
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
-
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-    <!-- Particle Background -->
-    <div id="particles-js"></div>
+    <!-- Atmospheric layers -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-grain" aria-hidden="true"></div>
+    <div class="bg-gradient" aria-hidden="true"></div>
 
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#home" class="nav-brand" id="nav-brand"></a>
-                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="nav-menu"></ul>
-            </div>
+    <header class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#top" class="nav__brand" aria-label="Home">
+                <span class="nav__mark">NM</span>
+                <span class="nav__divider"></span>
+                <span class="nav__role">AI/ML Engineer</span>
+            </a>
+            <nav class="nav__menu" aria-label="Primary">
+                <a href="#about"><span class="nav__num">00</span> About</a>
+                <a href="#work"><span class="nav__num">01</span> Work</a>
+                <a href="#projects"><span class="nav__num">02</span> Projects</a>
+                <a href="#stack"><span class="nav__num">03</span> Stack</a>
+                <a href="#credentials"><span class="nav__num">04</span> Credentials</a>
+                <a href="#contact"><span class="nav__num">05</span> Contact</a>
+            </nav>
+            <a href="assets/files/Resume.pdf" class="nav__cta" target="_blank" rel="noopener">
+                <span>Résumé</span>
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true"><path d="M2 8L8 2M8 2H3M8 2V7" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+            </a>
+            <button class="nav__burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+                <span></span><span></span>
+            </button>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <p class="hero-greeting" id="hero-greeting"></p>
-                <h1 class="hero-name" id="hero-name"></h1>
-                <h2 class="hero-title" id="hero-title"></h2>
-                <p class="hero-tagline" id="hero-tagline"></p>
-                <p class="hero-summary" id="hero-summary"></p>
+    <main id="top">
 
-                <div class="hero-highlights" id="hero-highlights"></div>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="wrap">
+            <div class="hero__grid">
+                <div class="hero__lead">
+                    <p class="eyebrow">
+                        <span class="dot dot--live"></span>
+                        <span>Los Angeles &middot; Available for senior ML roles</span>
+                    </p>
+                    <h1 class="hero__title">
+                        Shipping <em>ML&nbsp;systems</em> at the<br/>
+                        edge of <em>money</em>, <em>latency</em>,<br/>
+                        and <em>trust</em>.
+                    </h1>
+                    <p class="hero__sub">
+                        I'm Nithish — an AI/ML engineer at PayPal building fraud detection and generative-AI systems on AWS. I turn data complexity into measurable outcomes: eight-figure loss prevention, sub-50ms inference, and org-wide MLOps.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#work" class="btn btn--primary">
+                            <span>See the work</span>
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 6h8M7 2l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+                        </a>
+                        <a href="mailto:marneninithish51@gmail.com" class="btn btn--ghost">
+                            <span>marneninithish51@gmail.com</span>
+                        </a>
+                    </div>
+                    <ul class="hero__socials">
+                        <li><a href="https://github.com/nithishmarneni" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/nithishmarneni" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="tel:+14095498033">+1 409-549-8033</a></li>
+                    </ul>
+                </div>
 
-                <div class="hero-cta" id="hero-cta"></div>
+                <!-- Terminal pane -->
+                <aside class="console" aria-label="Live fraud-scoring simulation">
+                    <header class="console__bar">
+                        <span class="console__dots" aria-hidden="true">
+                            <span></span><span></span><span></span>
+                        </span>
+                        <span class="console__title">paypal-fraud-scorer &middot; prod &middot; us-west-2</span>
+                        <span class="console__status"><span class="dot dot--live"></span>LIVE</span>
+                    </header>
+                    <div class="console__body">
+                        <div class="console__meta">
+                            <div><span class="k">model</span><span class="v">xgb-lstm-ens v4.2.1</span></div>
+                            <div><span class="k">p99</span><span class="v">47ms</span></div>
+                            <div><span class="k">throughput</span><span class="v" id="tps">40,384 TPS</span></div>
+                        </div>
+                        <pre class="console__log" id="log" aria-live="polite"></pre>
+                        <div class="console__footer">
+                            <span class="k">precision</span><span class="v accent">94.7%</span>
+                            <span class="k">recall</span><span class="v">91.2%</span>
+                            <span class="k">drift</span><span class="v">—</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
 
-                <div class="hero-social" id="hero-social"></div>
-
-                <div class="scroll-indicator" id="scroll-indicator">
-                    <span>Scroll to explore</span>
-                    <i class="fas fa-chevron-down"></i>
+            <!-- Metric marquee -->
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee__track">
+                    <span class="marquee__item">$18.3M loss prevented</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">94.7% precision</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">40K TPS</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">&lt;50ms inference</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">99.98% uptime</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">78% faster deploys</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">$4.2M revenue preserved</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">2.4M events/hr</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">$18.3M loss prevented</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">94.7% precision</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">40K TPS</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">&lt;50ms inference</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">99.98% uptime</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">78% faster deploys</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">$4.2M revenue preserved</span><span class="marquee__sep">●</span>
+                    <span class="marquee__item">2.4M events/hr</span><span class="marquee__sep">●</span>
                 </div>
             </div>
         </div>
-        <div class="hero-decoration">
-            <div class="gradient-orb orb-1"></div>
-            <div class="gradient-orb orb-2"></div>
-            <div class="gradient-orb orb-3"></div>
+    </section>
+
+    <!-- IMPACT STRIP -->
+    <section class="impact wrap">
+        <div class="impact__grid">
+            <article class="impact__cell">
+                <div class="impact__num">$18.3<span class="unit">M</span></div>
+                <div class="impact__label">fraud losses prevented annually at PayPal via real-time XGBoost+LSTM ensemble</div>
+            </article>
+            <article class="impact__cell">
+                <div class="impact__num">94.7<span class="unit">%</span></div>
+                <div class="impact__label">precision on the real-time fraud model — production, SageMaker-hosted</div>
+            </article>
+            <article class="impact__cell">
+                <div class="impact__num">40<span class="unit">K&nbsp;tps</span></div>
+                <div class="impact__label">sustained inference throughput with sub-50ms p99 latency</div>
+            </article>
+            <article class="impact__cell">
+                <div class="impact__num">78<span class="unit">%</span></div>
+                <div class="impact__label">reduction in ML deployment cycle — 3 weeks → 4 days, adopted org-wide</div>
+            </article>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section section">
-        <div class="container">
-            <h2 class="section-title" id="about-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text" id="about-text"></div>
-                <div class="about-stats" id="about-stats"></div>
+    <!-- ABOUT -->
+    <section id="about" class="section section--about">
+        <div class="wrap about">
+            <figure class="about__portrait">
+                <div class="about__frame">
+                    <img src="assets/images/nithish.png" alt="Nithish Marneni — portrait" width="1024" height="1024" loading="lazy" />
+                </div>
+                <figcaption>
+                    <span class="k">Fig.&nbsp;01</span>
+                    <span class="v">Nithish Marneni · Los Angeles · AI/ML Engineer</span>
+                </figcaption>
+            </figure>
+
+            <div class="about__body">
+                <span class="section__num">— 00</span>
+                <h2 class="about__title">Hello — I'm <em>Nithish</em>.</h2>
+                <p class="about__lede">
+                    I build production ML systems for the world's largest payment networks. My day job is at PayPal — shipping fraud-detection and generative-AI systems on AWS, processing transactions at planetary scale.
+                </p>
+                <p class="about__para">
+                    Before PayPal, I delivered ML and cloud systems for Fortune 500 clients at Accenture's Applied Intelligence practice. I hold a Master's in Computer Science from Lamar University (4.0 GPA, Outstanding Graduate Student Award) and six industry certifications across AWS and Google Cloud.
+                </p>
+                <p class="about__para">
+                    I care about latency budgets, unit economics, and models that survive distribution shift. Offline accuracy is a prerequisite; shipping is the work.
+                </p>
+
+                <dl class="about__facts">
+                    <div><dt>Role</dt><dd>AI/ML Engineer · PayPal</dd></div>
+                    <div><dt>Based in</dt><dd>Los Angeles, CA</dd></div>
+                    <div><dt>Education</dt><dd>M.S. CS · Lamar University</dd></div>
+                    <div><dt>Specialties</dt><dd>Fraud ML · AWS · MLOps · GenAI</dd></div>
+                    <div><dt>Open to</dt><dd>Senior ML / Applied Scientist roles</dd></div>
+                    <div><dt>Contact</dt><dd><a href="mailto:marneninithish51@gmail.com">marneninithish51@gmail.com</a></dd></div>
+                </dl>
             </div>
-            <div class="about-actions" id="about-actions"></div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="experience-section section">
-        <div class="container">
-            <h2 class="section-title" id="experience-title">Work Experience</h2>
-            <div class="timeline" id="experience-timeline"></div>
+    <!-- WORK / EXPERIENCE -->
+    <section id="work" class="section">
+        <div class="wrap">
+            <header class="section__head">
+                <span class="section__num">— 01</span>
+                <h2 class="section__title">Work <em>history</em></h2>
+                <p class="section__kicker">Three years of progressive ML engineering across FinTech and enterprise consulting.</p>
+            </header>
+
+            <div class="timeline">
+                <!-- PayPal -->
+                <article class="role">
+                    <aside class="role__meta">
+                        <div class="role__years"><span>2024</span><span>—</span><span>now</span></div>
+                        <div class="role__location">United&nbsp;States</div>
+                        <div class="role__tag">Current</div>
+                    </aside>
+                    <div class="role__body">
+                        <header class="role__head">
+                            <h3 class="role__company">PayPal, Inc.</h3>
+                            <p class="role__title">AI/ML Engineer</p>
+                            <p class="role__lede">Leading ML for PayPal's global fraud detection and personalization platforms — $1.5T+ in annual payment volume across 430M+ active accounts.</p>
+                        </header>
+                        <ul class="role__bullets">
+                            <li>
+                                <span class="role__pt">Architected a real-time fraud model on <b>AWS SageMaker</b> (XGBoost + LSTM ensemble) — <b>94.7% precision</b>, <b>$18.3M</b> annual loss prevention within 6 months.</span>
+                            </li>
+                            <li>
+                                <span class="role__pt">Built a fully automated <b>CI/CD MLOps pipeline</b> (CodePipeline, SageMaker Pipelines, Docker, K8s) — deploys from 3 weeks → 4 days, a <b>78%</b> efficiency gain adopted org-wide.</span>
+                            </li>
+                            <li>
+                                <span class="role__pt">Designed a distributed <b>feature store</b> on S3 + DynamoDB serving 200+ features with <b>&lt;10ms p99</b>, lifting model freshness 35% across 7 production models.</span>
+                            </li>
+                            <li>
+                                <span class="role__pt">Led an anomaly-detection microservice on <b>Lambda + Kinesis</b> — <b>2.4M events/hour</b> at <b>99.98% uptime</b>, eliminating $2.1M/yr in manual review.</span>
+                            </li>
+                            <li>
+                                <span class="role__pt">Drove adoption of <b>AWS Bedrock + Claude</b> for dispute summarization — <b>22%</b> lower handle time, <b>+14</b> CSAT.</span>
+                            </li>
+                            <li>
+                                <span class="role__pt">Implemented <b>SageMaker Model Monitor</b> drift logic — caught 3 distribution shifts proactively, preserving <b>$4.2M</b> in at-risk revenue during Q4.</span>
+                            </li>
+                        </ul>
+                        <ul class="chips">
+                            <li>AWS SageMaker</li><li>Bedrock</li><li>Kinesis</li><li>Lambda</li><li>DynamoDB</li><li>XGBoost</li><li>LSTM</li><li>Kubernetes</li><li>Terraform</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Accenture -->
+                <article class="role">
+                    <aside class="role__meta">
+                        <div class="role__years"><span>2022</span><span>—</span><span>2023</span></div>
+                        <div class="role__location">India</div>
+                    </aside>
+                    <div class="role__body">
+                        <header class="role__head">
+                            <h3 class="role__company">Accenture</h3>
+                            <p class="role__title">Machine Learning Engineer · Associate</p>
+                            <p class="role__lede">Delivered ML + cloud solutions for Fortune 500 clients across BFSI and e-commerce within Applied Intelligence.</p>
+                        </header>
+                        <ul class="role__bullets">
+                            <li><span class="role__pt">Customer <b>churn model</b> (Random Forest + SHAP) for a major Indian bank — <b>19%</b> churn reduction, <b>₹42 Cr ($5M)</b> Year-1 savings.</span></li>
+                            <li><span class="role__pt">Built a <b>BERT</b> document classification pipeline on SageMaker — <b>50K+ docs/day</b> at <b>91% accuracy</b>, replacing 6 FTEs.</span></li>
+                            <li><span class="role__pt">Designed AWS ingestion (S3/Glue/Lambda) — 500GB nightly load <b>14h → 38min</b> (<b>95%</b> faster).</span></li>
+                            <li><span class="role__pt">Shipped a <b>recommendation engine</b> (CF + DL embeddings) over 8M products — <b>+27%</b> CTR, <b>+9%</b> GMV.</span></li>
+                            <li><span class="role__pt">Contributed to a <b>YOLOv5</b> CV quality-control system on Rekognition — <b>97.3%</b> defect detection, <b>$800K</b> recall savings.</span></li>
+                        </ul>
+                        <ul class="chips">
+                            <li>BERT</li><li>Random Forest</li><li>SHAP</li><li>YOLOv5</li><li>Rekognition</li><li>Glue</li><li>PySpark</li><li>Embeddings</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section section">
-        <div class="container">
-            <h2 class="section-title" id="skills-title">Skills & Technologies</h2>
-            <div class="skills-grid" id="skills-grid"></div>
+    <!-- SIGNATURE PROJECTS -->
+    <section id="projects" class="section">
+        <div class="wrap">
+            <header class="section__head">
+                <span class="section__num">— 02</span>
+                <h2 class="section__title">Signature <em>projects</em></h2>
+                <p class="section__kicker">Flagship systems where the architecture, the model, and the business outcome align.</p>
+            </header>
+
+            <div class="projects">
+                <article class="project">
+                    <div class="project__index">P/01</div>
+                    <div class="project__meta">
+                        <span>PayPal</span><span>·</span><span>2024–25</span><span>·</span><span>Real-time ML</span>
+                    </div>
+                    <h3 class="project__title">Real-Time Fraud <em>Intelligence</em> Platform</h3>
+                    <p class="project__desc">End-to-end ML system on AWS powering PayPal's primary fraud scoring engine. SageMaker inference, Kinesis ingest, Redis feature cache, Aurora PostgreSQL for case state — orchestrated for 40K TPS with sub-50ms tail latency.</p>
+                    <div class="project__metrics">
+                        <div><span class="m">40<i>K</i></span><span class="l">TPS sustained</span></div>
+                        <div><span class="m">&lt;50<i>ms</i></span><span class="l">p99 inference</span></div>
+                        <div><span class="m">$18.3<i>M</i></span><span class="l">loss prevented</span></div>
+                    </div>
+                    <ul class="chips chips--sm">
+                        <li>SageMaker</li><li>Kinesis</li><li>Redis</li><li>Aurora PG</li><li>XGBoost</li><li>LSTM</li>
+                    </ul>
+                </article>
+
+                <article class="project">
+                    <div class="project__index">P/02</div>
+                    <div class="project__meta">
+                        <span>PayPal</span><span>·</span><span>2025</span><span>·</span><span>Generative AI</span>
+                    </div>
+                    <h3 class="project__title">GenAI <em>Customer</em> Intelligence Suite</h3>
+                    <p class="project__desc">RAG-based LLM assistant for internal compliance teams, combining Bedrock-hosted foundation models with OpenSearch retrieval over policy corpora. Shipped internally and received exec sponsorship for broader rollout.</p>
+                    <div class="project__metrics">
+                        <div><span class="m">40<i>%</i></span><span class="l">faster reports</span></div>
+                        <div><span class="m">+14</span><span class="l">CSAT points</span></div>
+                        <div><span class="m">−22<i>%</i></span><span class="l">handle time</span></div>
+                    </div>
+                    <ul class="chips chips--sm">
+                        <li>AWS Bedrock</li><li>Claude</li><li>OpenSearch</li><li>RAG</li><li>LangChain</li>
+                    </ul>
+                </article>
+
+                <article class="project">
+                    <div class="project__index">P/03</div>
+                    <div class="project__meta">
+                        <span>Accenture × BFSI</span><span>·</span><span>2023</span><span>·</span><span>NLP</span>
+                    </div>
+                    <h3 class="project__title">Intelligent <em>Document</em> Processing</h3>
+                    <p class="project__desc">BERT-based multi-class classifier paired with an OCR pipeline, automating KYC document verification for a major BFSI client. Onboarding SLA adherence transformed from nearly failing to best-in-class.</p>
+                    <div class="project__metrics">
+                        <div><span class="m">1.2<i>M</i></span><span class="l">customers / mo</span></div>
+                        <div><span class="m">61→97<i>%</i></span><span class="l">SLA adherence</span></div>
+                        <div><span class="m">−73<i>%</i></span><span class="l">manual effort</span></div>
+                    </div>
+                    <ul class="chips chips--sm">
+                        <li>BERT</li><li>OCR</li><li>SageMaker</li><li>HuggingFace</li><li>Textract</li>
+                    </ul>
+                </article>
+            </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section section">
-        <div class="container">
-            <h2 class="section-title" id="projects-title">Featured Projects</h2>
-            <div class="projects-grid" id="projects-grid"></div>
-        </div>
-    </section>
+    <!-- STACK -->
+    <section id="stack" class="section">
+        <div class="wrap">
+            <header class="section__head">
+                <span class="section__num">— 03</span>
+                <h2 class="section__title">Technical <em>stack</em></h2>
+                <p class="section__kicker">Tools I've shipped with in production — grouped by the part of the system they serve.</p>
+            </header>
 
-    <!-- Education Section -->
-    <section id="education" class="education-section section">
-        <div class="container">
-            <h2 class="section-title" id="education-title">Education</h2>
-            <div class="education-grid" id="education-grid"></div>
-
-            <h3 class="subsection-title" id="certifications-title">Certifications</h3>
-            <div class="certifications-grid" id="certifications-grid"></div>
-
-            <h3 class="subsection-title" id="awards-title">Awards</h3>
-            <div class="awards-grid" id="awards-grid"></div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section section">
-        <div class="container">
-            <h2 class="section-title" id="contact-title">Get In Touch</h2>
-            <p class="section-subtitle" id="contact-subtitle"></p>
-
-            <div class="contact-wrapper">
-                <div class="contact-info" id="contact-info"></div>
-                <div class="contact-form-wrapper">
-                    <form id="contact-form" class="contact-form"></form>
+            <div class="stack">
+                <div class="stack__col">
+                    <h4>Languages</h4>
+                    <ul class="stack__list">
+                        <li>Python</li><li>SQL</li><li>PySpark</li><li>Bash</li><li>Scala <span>basic</span></li>
+                    </ul>
+                </div>
+                <div class="stack__col">
+                    <h4>ML &amp; Deep Learning</h4>
+                    <ul class="stack__list">
+                        <li>Scikit-learn</li><li>TensorFlow</li><li>PyTorch</li><li>XGBoost</li><li>LightGBM</li><li>Hugging&nbsp;Face</li><li>BERT</li><li>LLaMA</li>
+                    </ul>
+                </div>
+                <div class="stack__col">
+                    <h4>AWS</h4>
+                    <ul class="stack__list">
+                        <li>SageMaker</li><li>Bedrock</li><li>Lambda</li><li>Kinesis</li><li>S3</li><li>Glue</li><li>Athena</li><li>DynamoDB</li><li>EKS</li><li>ECR</li><li>CloudWatch</li>
+                    </ul>
+                </div>
+                <div class="stack__col">
+                    <h4>MLOps &amp; DevOps</h4>
+                    <ul class="stack__list">
+                        <li>MLflow</li><li>Kubeflow</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li><li>GitHub&nbsp;Actions</li><li>CodePipeline</li>
+                    </ul>
+                </div>
+                <div class="stack__col">
+                    <h4>Data &amp; Streaming</h4>
+                    <ul class="stack__list">
+                        <li>Apache&nbsp;Kafka</li><li>Spark</li><li>Databricks</li><li>Snowflake</li><li>Airflow</li><li>dbt</li><li>Redis</li>
+                    </ul>
+                </div>
+                <div class="stack__col">
+                    <h4>Monitoring</h4>
+                    <ul class="stack__list">
+                        <li>SageMaker Model Monitor</li><li>Evidently AI</li><li>Grafana</li><li>Prometheus</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="contact-social" id="contact-social"></div>
         </div>
     </section>
+
+    <!-- CREDENTIALS: education, certs, awards -->
+    <section id="credentials" class="section">
+        <div class="wrap">
+            <header class="section__head">
+                <span class="section__num">— 04</span>
+                <h2 class="section__title">Credentials &amp; <em>recognition</em></h2>
+                <p class="section__kicker">Formal education, vendor certifications, and recognition from institutions worth listing.</p>
+            </header>
+
+            <div class="creds">
+                <!-- Education -->
+                <div class="creds__block">
+                    <h4 class="creds__label">Education</h4>
+                    <article class="edu">
+                        <div class="edu__years">2023 — 2025</div>
+                        <div class="edu__body">
+                            <h5>M.S., Computer Science</h5>
+                            <p>Lamar University · Beaumont, TX</p>
+                            <p class="edu__note">4.0 GPA · Outstanding Graduate Student Award</p>
+                        </div>
+                    </article>
+                    <article class="edu">
+                        <div class="edu__years">2018 — 2022</div>
+                        <div class="edu__body">
+                            <h5>B.Tech., Electronics &amp; Communication</h5>
+                            <p>JNTUH · Hyderabad, India</p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Certs -->
+                <div class="creds__block">
+                    <h4 class="creds__label">Certifications</h4>
+                    <ul class="cert-list">
+                        <li><span class="cert__issuer">AWS</span><span class="cert__name">Certified Machine Learning — Specialty</span></li>
+                        <li><span class="cert__issuer">AWS</span><span class="cert__name">Certified Solutions Architect — Associate</span></li>
+                        <li><span class="cert__issuer">AWS</span><span class="cert__name">Certified Data Analytics — Specialty</span></li>
+                        <li><span class="cert__issuer">Google</span><span class="cert__name">Professional ML Engineer</span></li>
+                        <li><span class="cert__issuer">Coursera</span><span class="cert__name">Deep Learning Specialization</span></li>
+                        <li><span class="cert__issuer">Coursera</span><span class="cert__name">MLOps Specialization</span></li>
+                    </ul>
+                </div>
+
+                <!-- Awards -->
+                <div class="creds__block">
+                    <h4 class="creds__label">Awards</h4>
+                    <article class="award">
+                        <h5>Outstanding Graduate Student Award</h5>
+                        <p class="award__org">Lamar University · 2024–25</p>
+                        <p>For exceptional academic performance and research in microservices and cloud computing; perfect 4.0 GPA.</p>
+                        <a class="award__link" href="assets/certificates/Outstanding%20Graduate%20Student%20Award.pdf" target="_blank" rel="noopener">View certificate →</a>
+                    </article>
+                    <article class="award">
+                        <h5>Outstanding Individual Contribution</h5>
+                        <p class="award__org">Accenture · 2022–23</p>
+                        <p>For high-impact microservice development and measurable improvements to a large-scale messaging platform — a top individual recognition in Applied Intelligence.</p>
+                        <a class="award__link" href="assets/certificates/Outstanding%20Individual%20Contribution%20Award.pdf" target="_blank" rel="noopener">View certificate →</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--contact">
+        <div class="wrap">
+            <header class="section__head">
+                <span class="section__num">— 05</span>
+                <h2 class="section__title">Let's build<br/>something <em>that matters</em>.</h2>
+                <p class="section__kicker">Open to senior ML/MLOps and applied-scientist roles. Happy to consult on fraud, real-time inference, or AWS ML architecture.</p>
+            </header>
+
+            <div class="contact">
+                <a class="contact__card" href="mailto:marneninithish51@gmail.com">
+                    <span class="contact__kind">Email</span>
+                    <span class="contact__value">marneninithish51@gmail.com</span>
+                    <span class="contact__arrow">↗</span>
+                </a>
+                <a class="contact__card" href="https://linkedin.com/in/nithishmarneni" target="_blank" rel="noopener">
+                    <span class="contact__kind">LinkedIn</span>
+                    <span class="contact__value">/in/nithishmarneni</span>
+                    <span class="contact__arrow">↗</span>
+                </a>
+                <a class="contact__card" href="https://github.com/nithishmarneni" target="_blank" rel="noopener">
+                    <span class="contact__kind">GitHub</span>
+                    <span class="contact__value">@nithishmarneni</span>
+                    <span class="contact__arrow">↗</span>
+                </a>
+                <a class="contact__card" href="tel:+14095498033">
+                    <span class="contact__kind">Phone</span>
+                    <span class="contact__value">+1 409-549-8033</span>
+                    <span class="contact__arrow">↗</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-tagline" id="footer-tagline"></p>
-                <div class="footer-social" id="footer-social"></div>
-                <p class="footer-copyright" id="footer-copyright"></p>
-                <div class="footer-links" id="footer-links"></div>
+        <div class="wrap footer__inner">
+            <div class="footer__brand">
+                <span class="footer__mark">NM</span>
+                <span>Nithish Marneni · AI/ML Engineer · Los Angeles, CA</span>
             </div>
-            <button class="back-to-top" id="back-to-top" aria-label="Back to top">
-                <i class="fas fa-chevron-up"></i>
-            </button>
+            <div class="footer__col">
+                <span class="footer__label">Sitemap</span>
+                <a href="#work">Work</a>
+                <a href="#projects">Projects</a>
+                <a href="#stack">Stack</a>
+                <a href="#credentials">Credentials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer__col">
+                <span class="footer__label">Elsewhere</span>
+                <a href="https://github.com/nithishmarneni" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/nithishmarneni" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:marneninithish51@gmail.com">Email</a>
+                <a href="assets/files/Resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+            </div>
+            <div class="footer__col">
+                <span class="footer__label">Colophon</span>
+                <span>Set in Instrument Serif, IBM Plex Sans, JetBrains Mono.</span>
+                <span>Hand-built. Hosted on GitHub Pages.</span>
+                <span>© <span id="year"></span> Nithish Marneni.</span>
+            </div>
         </div>
     </footer>
 
-    <!-- Particles.js Library -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <button class="totop" id="toTop" aria-label="Back to top">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 12V2M3 6l4-4 4 4" stroke="currentColor" stroke-width="1.4"/></svg>
+    </button>
 
-    <!-- Custom JavaScript -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
