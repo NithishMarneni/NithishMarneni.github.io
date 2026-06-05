@@ -3,269 +3,78 @@
   "sectionTitle": "Featured Work",
   "projects": [
     {
-      "title": "text-analysis-using-nlp-streamlit",
-      "description": "Interactive Streamlit app for text analytics — sentiment analysis, keyword extraction, and NLP-driven insights on user-supplied text.",
-      "longDescription": "Interactive Streamlit app for text analytics — sentiment analysis, keyword extraction, and NLP-driven insights on user-supplied text.",
-      "category": "NLP & LLMs",
+      "title": "ElecPy — Electronics & Signal Processing CLI Tool",
+      "description": "CLI simulation tool covering Ohm's Law, MOSFET drain current, amplifier gain, and FFT visualization — reducing circuit calculation iteration time by 70% vs manual derivation.",
+      "longDescription": "Built a CLI simulation tool covering Ohm's Law, MOSFET drain current, amplifier gain, and FFT visualization, reducing circuit calculation iteration time by 70% vs manual derivation. Implemented sampling and frequency-domain analysis modules enabling sub-millisecond signal simulation, directly applicable to embedded sensor firmware validation workflows.",
+      "category": "Signal Processing",
       "technologies": [
         "Python",
-        "Streamlit",
-        "NLP",
-        "spaCy"
+        "NumPy",
+        "Matplotlib",
+        "FFT",
+        "DSP"
       ],
-      "icon": "fas fa-language",
+      "icon": "fas fa-wave-square",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/NithishMarneni/text-analysis-using-nlp-streamlit",
-      "demo": "https://github.com/NithishMarneni/text-analysis-using-nlp-streamlit",
+      "github": "https://github.com/NithishMarneni",
+      "demo": "",
       "links": {
-        "github": "https://github.com/NithishMarneni/text-analysis-using-nlp-streamlit",
-        "demo": "https://github.com/NithishMarneni/text-analysis-using-nlp-streamlit",
-        "live": "https://github.com/NithishMarneni/text-analysis-using-nlp-streamlit"
+        "github": "https://github.com/NithishMarneni"
       },
       "stats": {
         "status": "Completed",
-        "year": "2026"
+        "year": "2024"
       }
     },
     {
-      "title": "multi-agent-conversation-for-disease-diagnosis",
-      "description": "Multi-agent LLM system simulating doctor-patient dialogue for disease diagnosis, leveraging agentic conversation patterns and medical reasoning.",
-      "longDescription": "Multi-agent LLM system simulating doctor-patient dialogue for disease diagnosis, leveraging agentic conversation patterns and medical reasoning.",
-      "category": "AI Agents & LLMs",
+      "title": "EMG Pattern Recognition & Signal Processing Pipeline",
+      "description": "Biomedical EMG signal pipeline with notch/band-pass filtering achieving >95% noise reduction and a sliding-window feature engine feeding 91%+ accuracy classification.",
+      "longDescription": "Processed raw biomedical EMG signals with notch/band-pass filters achieving >95% noise reduction, directly mirroring embedded sensor signal conditioning challenges. Extracted 18 time-domain and frequency-domain features via a sliding-window engine, producing a structured dataset that fed downstream classification models with 91%+ accuracy.",
+      "category": "Signal Processing",
       "technologies": [
         "Python",
-        "LLMs",
-        "Multi-Agent",
-        "Shell"
+        "SciPy",
+        "Pandas",
+        "Digital Filters",
+        "Feature Extraction"
       ],
-      "icon": "fas fa-user-md",
+      "icon": "fas fa-heartbeat",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/NithishMarneni/multi-agent-conversation-for-disease-diagnosis",
-      "demo": "https://github.com/NithishMarneni/multi-agent-conversation-for-disease-diagnosis",
+      "github": "https://github.com/NithishMarneni",
+      "demo": "",
       "links": {
-        "github": "https://github.com/NithishMarneni/multi-agent-conversation-for-disease-diagnosis",
-        "demo": "https://github.com/NithishMarneni/multi-agent-conversation-for-disease-diagnosis",
-        "live": "https://github.com/NithishMarneni/multi-agent-conversation-for-disease-diagnosis"
+        "github": "https://github.com/NithishMarneni"
       },
       "stats": {
         "status": "Completed",
-        "year": "2026"
+        "year": "2024"
       }
     },
     {
-      "title": "online-payments-fraud-detection-with-machine-learning",
-      "description": "Machine learning pipeline for detecting fraudulent online payment transactions — feature engineering, model training, and evaluation on real-world data.",
-      "longDescription": "Machine learning pipeline for detecting fraudulent online payment transactions — feature engineering, model training, and evaluation on real-world data.",
-      "category": "Machine Learning",
+      "title": "Distributed File System",
+      "description": "6-component distributed file system (registry, directory, file, lock, cache servers) handling concurrent client access with zero data corruption across 200+ test scenarios.",
+      "longDescription": "Architected a 6-component distributed file system (registry, directory, file, lock, cache servers) handling concurrent client access with zero data corruption across 200+ test scenarios. Implemented replication and locking protocols that maintained consistency under simulated node failure, demonstrating fault-tolerance patterns applicable to embedded distributed systems.",
+      "category": "Systems & Distributed",
       "technologies": [
-        "Jupyter Notebook",
         "Python",
-        "Scikit-learn",
-        "HTML",
-        "CSS"
+        "Linux",
+        "REST APIs",
+        "Replication",
+        "Caching",
+        "MongoDB"
       ],
-      "icon": "fas fa-shield-alt",
+      "icon": "fas fa-server",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&q=80&fit=crop",
       "featured": true,
-      "github": "https://github.com/NithishMarneni/online-payments-fraud-detection-with-machine-learning",
-      "demo": "https://github.com/NithishMarneni/online-payments-fraud-detection-with-machine-learning",
+      "github": "https://github.com/NithishMarneni",
+      "demo": "",
       "links": {
-        "github": "https://github.com/NithishMarneni/online-payments-fraud-detection-with-machine-learning",
-        "demo": "https://github.com/NithishMarneni/online-payments-fraud-detection-with-machine-learning",
-        "live": "https://github.com/NithishMarneni/online-payments-fraud-detection-with-machine-learning"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "hospital_readmission_prediction",
-      "description": "Predictive ML model to identify patients at risk of 30-day hospital readmission, supporting proactive care planning.",
-      "longDescription": "Predictive ML model to identify patients at risk of 30-day hospital readmission, supporting proactive care planning.",
-      "category": "Healthcare ML",
-      "technologies": [
-        "Python",
-        "Scikit-learn",
-        "Pandas"
-      ],
-      "icon": "fas fa-hospital",
-      "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/hospital_readmission_prediction",
-      "demo": "https://github.com/NithishMarneni/hospital_readmission_prediction",
-      "links": {
-        "github": "https://github.com/NithishMarneni/hospital_readmission_prediction",
-        "demo": "https://github.com/NithishMarneni/hospital_readmission_prediction",
-        "live": "https://github.com/NithishMarneni/hospital_readmission_prediction"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "youtube-trending-etl-aws",
-      "description": "End-to-end ETL pipeline on AWS ingesting YouTube trending data, provisioned with Terraform and orchestrated through serverless services for analytics.",
-      "longDescription": "End-to-end ETL pipeline on AWS ingesting YouTube trending data, provisioned with Terraform and orchestrated through serverless services for analytics.",
-      "category": "Data Engineering",
-      "technologies": [
-        "Python",
-        "AWS",
-        "Terraform",
-        "HTML"
-      ],
-      "icon": "fas fa-database",
-      "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
-      "featured": true,
-      "github": "https://github.com/NithishMarneni/youtube-trending-etl-aws",
-      "demo": "https://github.com/NithishMarneni/youtube-trending-etl-aws",
-      "links": {
-        "github": "https://github.com/NithishMarneni/youtube-trending-etl-aws",
-        "demo": "https://github.com/NithishMarneni/youtube-trending-etl-aws",
-        "live": "https://github.com/NithishMarneni/youtube-trending-etl-aws"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "brain-mapping-eeg-classification",
-      "description": "Deep learning pipeline for classifying EEG brain signals, exploring neural network architectures for neuroscience applications.",
-      "longDescription": "Deep learning pipeline for classifying EEG brain signals, exploring neural network architectures for neuroscience applications.",
-      "category": "Deep Learning",
-      "technologies": [
-        "Python",
-        "PyTorch",
-        "Shell",
-        "Docker"
-      ],
-      "icon": "fas fa-brain",
-      "color": "#F08080",
-      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
-      "demo": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
-      "links": {
-        "github": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
-        "demo": "https://github.com/NithishMarneni/brain-mapping-eeg-classification",
-        "live": "https://github.com/NithishMarneni/brain-mapping-eeg-classification"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "agentic-rag-with-crewai",
-      "description": "Agentic Retrieval-Augmented Generation system built with CrewAI, coordinating multiple LLM agents for context-aware knowledge retrieval.",
-      "longDescription": "Agentic Retrieval-Augmented Generation system built with CrewAI, coordinating multiple LLM agents for context-aware knowledge retrieval.",
-      "category": "AI Agents & LLMs",
-      "technologies": [
-        "Python",
-        "CrewAI",
-        "RAG",
-        "LLMs"
-      ],
-      "icon": "fas fa-robot",
-      "color": "#7FDBDA",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
-      "demo": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
-      "links": {
-        "github": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
-        "demo": "https://github.com/NithishMarneni/agentic-rag-with-crewai",
-        "live": "https://github.com/NithishMarneni/agentic-rag-with-crewai"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "multi-agentic-rag",
-      "description": "Multi-agent RAG architecture combining retrieval, reasoning, and response generation across specialized LLM agents.",
-      "longDescription": "Multi-agent RAG architecture combining retrieval, reasoning, and response generation across specialized LLM agents.",
-      "category": "AI Agents & LLMs",
-      "technologies": [
-        "Python",
-        "LLMs",
-        "RAG",
-        "Vector DB"
-      ],
-      "icon": "fas fa-network-wired",
-      "color": "#FFD166",
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/multi-agentic-rag",
-      "demo": "https://github.com/NithishMarneni/multi-agentic-rag",
-      "links": {
-        "github": "https://github.com/NithishMarneni/multi-agentic-rag",
-        "demo": "https://github.com/NithishMarneni/multi-agentic-rag",
-        "live": "https://github.com/NithishMarneni/multi-agentic-rag"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "azure-search-openai-demo",
-      "description": "Reference implementation of enterprise RAG on Azure — combining Azure AI Search with OpenAI models for document Q&A over private data.",
-      "longDescription": "Reference implementation of enterprise RAG on Azure — combining Azure AI Search with OpenAI models for document Q&A over private data.",
-      "category": "Cloud & AI",
-      "technologies": [
-        "Python",
-        "TypeScript",
-        "Azure",
-        "Bicep",
-        "Docker"
-      ],
-      "icon": "fas fa-cloud",
-      "color": "#6FB1FC",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/azure-search-openai-demo",
-      "demo": "https://github.com/NithishMarneni/azure-search-openai-demo",
-      "links": {
-        "github": "https://github.com/NithishMarneni/azure-search-openai-demo",
-        "demo": "https://github.com/NithishMarneni/azure-search-openai-demo",
-        "live": "https://github.com/NithishMarneni/azure-search-openai-demo"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "house-price-prediction_task-1",
-      "description": "Regression model predicting house prices from structured features — data cleaning, EDA, and model comparison in a Jupyter workflow.",
-      "longDescription": "Regression model predicting house prices from structured features — data cleaning, EDA, and model comparison in a Jupyter workflow.",
-      "category": "Machine Learning",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "Scikit-learn"
-      ],
-      "icon": "fas fa-home",
-      "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/NithishMarneni/house-price-prediction_task-1",
-      "demo": "https://github.com/NithishMarneni/house-price-prediction_task-1",
-      "links": {
-        "github": "https://github.com/NithishMarneni/house-price-prediction_task-1",
-        "demo": "https://github.com/NithishMarneni/house-price-prediction_task-1",
-        "live": "https://github.com/NithishMarneni/house-price-prediction_task-1"
+        "github": "https://github.com/NithishMarneni"
       },
       "stats": {
         "status": "Completed",

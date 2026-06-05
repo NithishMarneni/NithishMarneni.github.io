@@ -43,7 +43,7 @@
         });
     }
 
-    // ---- Console: animated fraud-scoring log
+    // ---- Console: animated validation test-harness log
     const log = document.getElementById('log');
     const tpsEl = document.getElementById('tps');
 
@@ -56,27 +56,30 @@
             const d = new Date();
             return `${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`;
         };
-        const hex = (n) => Math.floor(Math.random() * 16 ** n)
-            .toString(16).padStart(n, '0');
-        const txnId = () => `txn_${hex(4)}_${hex(4)}`;
 
-        // Score distribution: mostly low risk, occasional medium, rare high.
-        const nextScore = () => {
+        // Pool of embedded validation test names.
+        const TESTS = [
+            'uart_loopback', 'spi_flash_rw', 'i2c_sensor_probe', 'can_bus_arbitration',
+            'gpio_irq_latency', 'dma_transfer', 'rtos_sched_jitter', 'mem_leak_scan',
+            'linux_dmesg_parse', 'fw_crc_verify', 'bootloader_handoff', 'watchdog_reset',
+            'adc_sample_rate', 'power_seq_bringup', 'thermal_throttle', 'reg_dump_diff'
+        ];
+        const pick = () => TESTS[Math.floor(Math.random() * TESTS.length)];
+
+        // Verdict distribution: mostly pass, occasional skip, rare fail.
+        const nextVerdict = () => {
             const r = Math.random();
-            if (r < 0.82) return 0.01 + Math.random() * 0.22;   // allow
-            if (r < 0.96) return 0.28 + Math.random() * 0.35;   // review
-            return 0.78 + Math.random() * 0.21;                 // block
-        };
-        const verdict = (s) => {
-            if (s >= 0.75) return ['BLOCK', 'block'];
-            if (s >= 0.30) return ['REVIEW', 'score'];
-            return ['ALLOW', 'allow'];
+            if (r < 0.86) return ['PASS', 'allow'];
+            if (r < 0.95) return ['SKIP', 'score'];
+            return ['FAIL', 'block'];
         };
 
         const addLine = () => {
-            const s = nextScore();
-            const [v, cls] = verdict(s);
-            const line = `<span class="ts">[${now()}]</span> <span class="id">${txnId()}</span>  score=<span class="score">${s.toFixed(2)}</span>  <span class="${cls}">${v}</span>`;
+            const name = `test_${pick()}`;
+            const [v, cls] = nextVerdict();
+            const ms = (1 + Math.random() * 240).toFixed(0);
+            const dots = '.'.repeat(Math.max(2, 26 - name.length));
+            const line = `<span class="ts">[${now()}]</span> <span class="id">${name}</span> <span class="score">${dots}</span> <span class="${cls}">${v}</span> <span class="score">${ms}ms</span>`;
             lines.push(line);
             if (lines.length > MAX_LINES) lines.shift();
             const caret = '<span class="caret"></span>';
@@ -92,12 +95,12 @@
         };
         scheduleNext();
 
-        // Subtle TPS flicker
+        // Subtle "builds today" flicker
         if (tpsEl) {
+            let builds = 37;
             setInterval(() => {
-                const base = 40000;
-                const jitter = Math.floor((Math.random() - 0.5) * 1800);
-                tpsEl.textContent = (base + jitter).toLocaleString() + ' TPS';
+                if (Math.random() < 0.25) builds += 1;
+                tpsEl.textContent = String(builds);
             }, 1500);
         }
     }

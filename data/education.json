@@ -8,14 +8,14 @@
       "school": "Lamar University, Beaumont, TX, USA",
       "institution": "Lamar University, Beaumont, TX, USA",
       "period": "Jul 2023 – May 2025",
-      "details": "",
-      "description": ""
+      "details": "GPA: 4.0 / 4.0 · Outstanding Graduate Student Award",
+      "description": "Coursework: Distributed Systems, Operating Systems, Embedded Systems, DSP, Computer Architecture"
     },
     {
-      "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+      "degree": "Bachelor of Technology in Electronics & Communication Engineering",
       "school": "Jawaharlal Nehru Technological University, Hyderabad, India",
       "institution": "Jawaharlal Nehru Technological University, Hyderabad, India",
-      "period": "May 2018 – Jul 2022",
+      "period": "Jul 2018 – Apr 2022",
       "details": "",
       "description": ""
     }
@@ -40,15 +40,6 @@
       "icon": "fas fa-trophy",
       "color": "#FFE66D",
       "pdfUrl": "assets/certificates/Outstanding Graduate Student Award.pdf"
-    },
-    {
-      "title": "Outstanding Individual Contribution Award",
-      "issuer": "Accenture",
-      "date": "August 2022",
-      "description": "Recognized for Respect for the Individual",
-      "icon": "fas fa-award",
-      "color": "#4ECDC4",
-      "pdfUrl": "assets/certificates/Outstanding Individual Contribution Award.pdf"
     }
   ]
 }

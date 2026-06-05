@@ -3,34 +3,32 @@
   "sectionTitle": "Professional Experience",
   "experiences": [
     {
-      "title": "AI/ML Engineer",
-      "company": "PayPal, Inc.",
+      "title": "Embedded Software Developer",
+      "company": "AMD",
       "period": "June 2024 - Present",
-      "location": "United States",
-      "description": "Leading AI/ML initiatives for PayPal's global fraud detection and personalization platforms, processing $1.5T+ in annual payment volume across 430M+ active accounts.",
+      "location": "Los Angeles, CA",
+      "description": "Deliver validated, production-grade embedded and systems software, driving reliability and faster validation cycles through Python automation and low-level Linux debugging.",
       "responsibilities": [
-        "Architected and deployed a real-time fraud detection model on AWS SageMaker using XGBoost + LSTM ensemble, achieving 94.7% precision and reducing fraudulent transaction losses by $18.3M annually within 6 months of launch",
-        "Reduced ML model deployment cycle from 3 weeks to 4 days by engineering a fully automated CI/CD MLOps pipeline using AWS CodePipeline, SageMaker Pipelines, Docker, and Kubernetes — a 78% efficiency gain adopted org-wide",
-        "Built a distributed feature store on AWS S3 + DynamoDB serving 200+ real-time features with <10ms p99 latency, replacing a legacy batch pipeline and enabling 35% improvement in model freshness across 7 production models",
-        "Led end-to-end development of a transaction anomaly detection microservice using AWS Lambda + Kinesis Streams, processing 2.4M events/hour at 99.98% uptime — eliminated $2.1M/year in manual review costs",
-        "Drove adoption of generative AI (AWS Bedrock / Claude API) for intelligent dispute summarization, cutting agent handle time by 22% and improving CSAT scores by 14 points across PayPal's customer operations team",
-        "Implemented SageMaker Model Monitor with custom drift-detection logic, proactively catching 3 major data distribution shifts before they degraded live models — preserving $4.2M in at-risk revenue during a critical Q4 period",
-        "Mentored 4 junior ML engineers, established team MLOps best practices, and represented the team in PayPal's internal AI Center of Excellence — contributing 3 reusable ML modules now used across 5 product squads"
+        "Automated validation test harnesses in Python, cutting manual regression time by ~40% and enabling the team to validate 3x more firmware builds per sprint",
+        "Identified and root-caused 12+ high-severity Linux-layer defects by correlating multi-source log traces, reducing mean-time-to-resolution from days to hours",
+        "Built a data-collection and reporting pipeline that aggregated performance counters across 50+ test nodes, surfacing system bottlenecks 60% faster than manual analysis",
+        "Hardened hardware-software integration workflows by reproducing intermittent system faults under controlled conditions, closing 8 previously unresolved tickets within the first quarter",
+        "Contributed to 3 consecutive release-readiness milestones on schedule by driving systematic defect triage, log analysis, and cross-team coordination",
+        "Authored internal documentation and code-review guidelines adopted by 5+ engineers, reducing onboarding time for new team members by an estimated 30%"
       ]
     },
     {
-      "title": "Machine Learning Engineer (Associate)",
-      "company": "Accenture",
-      "period": "January 2022 - August 2023",
-      "location": "India",
-      "description": "Delivered AI/ML and cloud solutions for Fortune 500 clients across BFSI and e-commerce verticals, working within Accenture's Applied Intelligence practice.",
+      "title": "Software Engineer",
+      "company": "Inventive Core Integrations",
+      "period": "July 2021 - August 2023",
+      "location": "Hyderabad, India",
+      "description": "Built Python automation, backend modules, and system monitoring tooling that reduced manual effort and improved deployment reliability across validation and monitoring workflows.",
       "responsibilities": [
-        "Developed a customer churn prediction model (Random Forest + SHAP explainability) for a major Indian bank, enabling targeted retention campaigns that reduced churn rate by 19% and saved the client ₹42 Cr ($5M) in Year 1",
-        "Designed and deployed an end-to-end NLP document classification pipeline using BERT fine-tuned on AWS SageMaker, processing 50,000+ legal documents/day with 91% accuracy — eliminating 6 FTEs worth of manual review",
-        "Built AWS-based data ingestion and preprocessing infrastructure (S3, Glue, Lambda) for a retail analytics project, cutting ETL processing time from 14 hours to 38 minutes (95% reduction) for a 500GB nightly data load",
-        "Engineered a recommendation engine (collaborative filtering + deep learning embeddings) for an e-commerce client's 8M product catalog, increasing click-through rate by 27% and contributing to a 9% lift in quarterly GMV",
-        "Implemented MLflow model tracking and versioning across 3 concurrent project teams, standardizing experiment management and reducing model reproducibility issues by 100% over a 4-month engagement",
-        "Contributed to a computer vision quality-control system (YOLOv5 on AWS Rekognition) for a manufacturing client, achieving 97.3% defect detection accuracy and reducing product recall costs by $800K annually"
+        "Delivered 6 automation and backend modules in Python that collectively eliminated ~15 hours/week of manual engineering effort across validation and monitoring workflows",
+        "Debugged and resolved 20+ system-level defects in Linux environments, improving deployment reliability by reducing post-release incidents by 35%",
+        "Designed a reusable scripting framework for system monitoring and validation that was adopted as a standard tool across 3 concurrent projects",
+        "Integrated REST APIs into data-processing pipelines, enabling real-time ingestion of external system events and reducing data latency from batch (hourly) to near-real-time",
+        "Improved code quality metrics by 25% (measured by static analysis tooling) after introducing structured code-review practices and internal technical documentation"
       ]
     }
   ]

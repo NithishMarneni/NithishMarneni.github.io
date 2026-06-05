@@ -3,33 +3,33 @@
   "sectionTitle": "About Me",
   "image": "assets/images/profile.jpg",
   "paragraphs": [
-    "AI, NLP, and Python engineer with hands-on experience building production-grade backend systems, machine learning\npipelines, and Al-driven applications. Strong background in developing FastAPI-based services, Retrieval-Augmented\nGeneration (RAG) pipelines, and cloud-native deployments across AWS and Azure. Proven ability to take models from\nexperimentation to real-time inference, optimize performance, and automate manual workflows.",
-    "Comfortable working in\nfast-paced Agile environments and collaborating closely with product, data, and engineering teams. • Built NLP and retrieval pipelines at Doublene, deploying LLM-powered services for real-time search and conversational\nuse cases. • Developed ML scoring tools and backend APIs at Lamar University, streamlining vendor, billing, and data-processing\nworkflows.",
-    "• Built large-scale messaging and automation services at Techecy, supporting production traffic exceeding one million API\nrequests per day."
+    "Embedded Software Developer with 4+ years of experience delivering validated, production-grade software in semiconductor and systems engineering environments. I consistently reduce defect escape rates, accelerate validation cycles, and improve system reliability through Python automation and low-level Linux debugging.",
+    "I hold an M.S. in Computer Science (4.0 GPA) and a B.Tech in Electronics & Communication, which lets me bridge firmware-level hardware understanding with full-stack system software skills. At AMD I automate validation test harnesses, root-cause high-severity Linux-layer defects, and build data-collection pipelines across large test fleets.",
+    "Earlier, at Inventive Core Integrations, I delivered Python automation and backend modules that eliminated ~15 hours/week of manual engineering effort and improved deployment reliability. I'm comfortable in fast-paced Agile environments, collaborating closely across hardware, validation, and software teams."
   ],
   "statistics": [
     {
-      "icon": "fas fa-project-diagram",
-      "value": "5+",
-      "label": "Projects Completed",
+      "icon": "fas fa-briefcase",
+      "value": "4+",
+      "label": "Years Experience",
       "color": "#FF6B6B"
     },
     {
-      "icon": "fas fa-briefcase",
+      "icon": "fas fa-project-diagram",
       "value": "3+",
-      "label": "Years Experience",
+      "label": "Featured Projects",
       "color": "#4ECDC4"
     },
     {
       "icon": "fas fa-code",
-      "value": "23+",
+      "value": "20+",
       "label": "Technologies",
       "color": "#FFE66D"
     },
     {
-      "icon": "fas fa-award",
-      "value": "1+",
-      "label": "Certifications",
+      "icon": "fas fa-graduation-cap",
+      "value": "4.0",
+      "label": "M.S. GPA",
       "color": "#A8DADC"
     }
   ],

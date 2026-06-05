@@ -2,24 +2,24 @@
   "_instructions": "Hero section content.",
   "greeting": "Hi, I'm",
   "name": "Nithish Marneni",
-  "title": "Professional Developer",
-  "summary": "Professional Developer with 3+ years of experience specializing in Python, SQL, Bash.",
+  "title": "Embedded Software Developer",
+  "summary": "Embedded Software Developer with 4+ years of experience delivering validated, production-grade software in semiconductor and systems engineering environments — driving reliability through Python automation and low-level Linux debugging.",
   "avatarUrl": "/avatar.png",
-  "tagline": "Professional Developer",
+  "tagline": "Embedded Software Developer",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
-      "text": "3+ Years Experience",
+      "text": "4+ Years Experience",
       "color": "#FF6B6B"
     },
     {
-      "icon": "fas fa-project-diagram",
-      "text": "5+ Projects Completed",
+      "icon": "fas fa-microchip",
+      "text": "Embedded & Linux Systems",
       "color": "#4ECDC4"
     },
     {
       "icon": "fas fa-code",
-      "text": "Technical Expertise",
+      "text": "C / C++ / Python Automation",
       "color": "#FFE66D"
     }
   ],
@@ -42,7 +42,7 @@
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/nithishmarneni",
+      "url": "https://github.com/NithishMarneni",
       "icon": "fab fa-github"
     },
     {

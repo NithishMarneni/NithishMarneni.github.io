@@ -22,8 +22,8 @@
     {
       "type": "location",
       "label": "Location",
-      "value": "Los Angles, CA",
-      "href": "https://maps.google.com/?q=Los%20Angles%2C%20CA",
+      "value": "Los Angeles, CA",
+      "href": "https://maps.google.com/?q=Los%20Angeles%2C%20CA",
       "icon": "fas fa-map-marker-alt",
       "color": "#FFE66D"
     }
@@ -74,7 +74,7 @@
   "socialMedia": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/nithishmarneni",
+      "url": "https://github.com/NithishMarneni",
       "icon": "fab fa-github",
       "color": "#333"
     },

@@ -1,8 +1,8 @@
 {
   "profile": {
     "name": "Nithish Marneni",
-    "title": "Professional Developer",
-    "bio": "AI, NLP, and Python engineer with hands-on experience building production-grade backend systems, machine learning\npipelines, and Al-driven applications. Strong background in developing FastAPI-based services, Retrieval-Augmented\nGeneration (RAG) pipelines, and cloud-native deployments across AWS and Azure. Proven ability to take models from\nexperimentation to real-time inference, optimize performance, and automate manual workflows. Comfortable working in\nfast-paced Agile environments and collaborating closely with product, data, and engineering teams.\n• Built NLP and retrieval pipelines at Doublene, deploying LLM-powered services for real-time search and conversational\nuse cases.\n• Developed ML scoring tools and backend APIs at Lamar University, streamlining vendor, billing, and data-processing\nworkflows.\n• Built large-scale messaging and automation services at Techecy, supporting production traffic exceeding one million API\nrequests per day."
+    "title": "Embedded Software Developer",
+    "bio": "Embedded Software Developer with 4+ years of experience delivering validated, production-grade software in semiconductor and systems engineering environments. Consistently reduces defect escape rates, accelerates validation cycles, and improves system reliability through Python automation and low-level Linux debugging.\nHolds an M.S. in Computer Science (4.0 GPA) and a B.Tech in Electronics & Communication, bridging firmware-level hardware understanding with full-stack system software skills.\n• Automated validation test harnesses at AMD, cutting manual regression time by ~40% and root-causing high-severity Linux-layer defects across multi-source log traces.\n• Delivered Python automation and backend modules at Inventive Core Integrations that eliminated ~15 hours/week of manual engineering effort and improved deployment reliability.\n• Comfortable working in fast-paced Agile environments and collaborating closely across hardware, validation, and software teams."
   },
   "contact": {
     "email": "marneninithish51@gmail.com",
@@ -13,6 +13,6 @@
   "siteConfig": {
     "domain": "",
     "title": "Nithish Marneni - Portfolio",
-    "description": "AI, NLP, and Python engineer with hands-on experience building production-grade backend systems, machine learning\npipelines, and Al-driven applications. Strong background in developing FastAPI-based services, Retrieval-Augmented\nGeneration (RAG) pipelines, and cloud-native deployments across AWS and Azure. Proven ability to take models from\nexperimentation to real-time inference, optimize performance, and automate manual workflows. Comfortable working in\nfast-paced Agile environments and collaborating closely with product, data, and engineering teams.\n• Built NLP and retrieval pipelines at Doublene, deploying LLM-powered services for real-time search and conversational\nuse cases.\n• Developed ML scoring tools and backend APIs at Lamar University, streamlining vendor, billing, and data-processing\nworkflows.\n• Built large-scale messaging and automation services at Techecy, supporting production traffic exceeding one million API\nrequests per day."
+    "description": "Embedded Software Developer with 4+ years of experience delivering validated, production-grade software in semiconductor and systems engineering environments. Reduces defect escape rates and accelerates validation cycles through Python automation and low-level Linux debugging. M.S. in Computer Science (4.0 GPA) and B.Tech in Electronics & Communication."
   }
 }

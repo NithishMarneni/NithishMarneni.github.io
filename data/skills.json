@@ -3,54 +3,84 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Programming Languages",
+      "category": "Languages",
       "icon": "fas fa-code",
       "color": "#FF6B6B",
       "skills": [
+        "C",
+        "C++",
+        "Embedded C",
         "Python",
-        "SQL",
-        "Bash"
+        "Bash",
+        "SQL"
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Embedded & OS",
+      "icon": "fas fa-microchip",
       "color": "#4ECDC4",
       "skills": [
-        "PyTorch",
-        "TensorFlow",
-        "HuggingFace Transformers",
-        "FastAPI",
-        "SQLAlchemy"
+        "Microcontrollers",
+        "RTOS Concepts",
+        "Device Drivers",
+        "Embedded Linux",
+        "Board Bring-Up",
+        "Memory Management",
+        "Multithreading"
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
+      "category": "Protocols",
+      "icon": "fas fa-network-wired",
       "color": "#FFE66D",
       "skills": [
-        "Git",
-        "GitHub",
-        "Postman",
-        "Linux",
-        "Bash Scripting",
-        "Docker",
-        "Kubernetes",
-        "Jenkins",
-        "AWS Lambda",
-        "API Gateway"
+        "UART",
+        "SPI",
+        "I2C",
+        "CAN",
+        "TCP/IP",
+        "REST APIs"
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "category": "Debug & Test",
+      "icon": "fas fa-bug",
       "color": "#A8DADC",
       "skills": [
-        "Data Structures",
-        "Algorithms",
-        "OOPS",
-        "Model Evaluation",
-        "Feature Engineering"
+        "GDB",
+        "Linux Debugging",
+        "Unit Testing",
+        "Log Analysis",
+        "Root Cause Analysis",
+        "Performance Profiling"
+      ]
+    },
+    {
+      "category": "Signal Processing",
+      "icon": "fas fa-wave-square",
+      "color": "#B19CD9",
+      "skills": [
+        "DSP",
+        "FFT",
+        "Filters",
+        "Sensor Signal Processing",
+        "MOSFET & Amplifier Analysis"
+      ]
+    },
+    {
+      "category": "Tools & Cloud",
+      "icon": "fas fa-wrench",
+      "color": "#7FDBDA",
+      "skills": [
+        "Git",
+        "Docker",
+        "CI/CD",
+        "AWS",
+        "Jupyter",
+        "NumPy",
+        "SciPy",
+        "Pandas",
+        "Matplotlib"
       ]
     }
   ]
